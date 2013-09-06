@@ -11,7 +11,7 @@ var Mustard = model('Mustard')
   .use(defaults)
   .attr('flavor', { default : 'Spicy' })
   .attr('color', { default : 'Golden' })
-  .attr('name', { default : function () { return this.flavor() + this.color() });
+  .attr('name', { default : function () { return this.flavor() + ' ' + this.color() });
 
 var mustard = new Mustard({ color : 'Brown' });
 
