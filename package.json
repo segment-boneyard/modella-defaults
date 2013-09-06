@@ -1,0 +1,19 @@
+{
+  "name": "modella-defaults",
+  "version": "0.0.1",
+  "description": "Modella plugin to add default values",
+  "keywords": [],
+  "author": "segmentio <friends@segment.io>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/segmentio/modella-defaults.git"
+  },
+  "dependencies": {
+    "modella": "0.1.*",
+    "clone-component": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "index"
+}
